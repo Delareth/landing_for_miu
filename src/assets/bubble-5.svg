@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>bubble-5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="75.0884595%" y1="3.63919005%" x2="23.8581731%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5AEDD4" offset="0%"></stop>
+            <stop stop-color="#4CE4DC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.695020989">
+        <g transform="translate(-465.000000, -4516.000000)" id="Footer" fill="url(#linearGradient-1)">
+            <g transform="translate(0.000000, 4160.000000)">
+                <rect id="bubble-5" x="465" y="356" width="68" height="68" rx="34"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
