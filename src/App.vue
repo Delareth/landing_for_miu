@@ -465,6 +465,7 @@ export default {
   margin-top: 10px;
   color: #000;
   font: 20px MainFont;
+  text-align: justify;
 }
 
 .info_text_lic {
@@ -646,8 +647,8 @@ footer {
 }
 
 .bubble_3 {
-  top: 1277px;
-  left: 15%;
+  top: 1197px;
+  left: 14%;
 }
 
 .bubble_4 {
@@ -815,7 +816,7 @@ footer {
   }
 
   .bubble_4 {
-    top: 1785px;
+    top: 1665px;
     right: 7%;
   }
 

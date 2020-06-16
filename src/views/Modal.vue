@@ -14,20 +14,20 @@
         </ul>
 
         <div class="modal_contacts" v-if="!isLevels">
-          <div class="modal_contacts_box">
+          <a class="modal_contacts_box" href="tel:8(800)350-08-29">
             <div class="modal_contacts_image image_contacts_call"></div>
             <div class="modal_contacts_text">8(800)350-08-29 (звонок бесплатный)</div>
-          </div>
+          </a>
 
-          <div class="modal_contacts_box">
+          <a class="modal_contacts_box" href="tel:8(862)262-08-32">
             <div class="modal_contacts_image image_contacts_call"></div>
             <div class="modal_contacts_text">8(862)262-08-32</div>
-          </div>
+          </a>
 
-          <div class="modal_contacts_box">
+          <a class="modal_contacts_box" href="https://www.miu-sochi.ru/lp/mail">
             <div class="modal_contacts_image image_contacts_email"></div>
             <div class="modal_contacts_text">sochi.priem@mail.ru</div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -200,10 +200,18 @@ header {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  color: #000;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
 }
 
 .modal_contacts_box:last-child {
   margin-bottom: 0px;
+}
+
+.modal_contacts_box:hover {
+  color: rgb(66, 66, 66);
+  text-decoration: underline;
 }
 
 .modal_contacts_image {
